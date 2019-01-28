@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--header-->
+  <title>Contact Form</title>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <ul class="bar">
+    <li><a href="./index.html" class="button bar-item">Home</a></li>
+    <li><a href="./projects.html" class="button bar-item">Projects</a></li>
+    <li><a href="./contact.html" class="button wbar-item">Contact</a></li>
+  </ul>
+
+  <!-- contact form -->
+  <div class="container" id="contact-container">
+    <form id="contact" action="" method="post">
+      <h3>E-mail me for a custom quote!</h3>
+      <h4>Inquiry Request</h4>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+</body>
+
+
+</html>

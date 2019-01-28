@@ -1,0 +1,365 @@
+/* GLOBAL CSS */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/IMG_0041.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: auto;
+  margin:0px;
+  padding:0px;
+}
+
+/* NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 1px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(12, 11, 11);
+  position: fixed;
+  color: whitesmoke;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+li a:active {
+  color: white;
+  background-color: #4CAF50;
+}
+/* INDEX TITLE */
+#index-container{
+  background:rgb(37, 37, 37, .7);
+  border: 1px solid goldenrod;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: goldenrod;
+  font-family: 'Roboto Slab', serif;
+  background-position: relative;
+}
+/* SLIDESHOW */
+
+.my-slides {
+  overflow: auto;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 300px;
+  }
+
+/* BIO */
+.biography {
+  background:rgb(37, 37, 37, .7);
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  background-position: relative;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom:40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+p{
+  border: 2px solid rgb(241, 230, 230, .5);
+  background: rgb(37, 37, 37, .7);
+  color:rgba(248, 244, 244, 0.808);
+  background-position: auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  margin-right: 35%;
+  margin-left: 35%;
+  overflow: auto;
+  clear: both;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+footer {
+  clear: both;
+  background: rgb(37, 37, 37, .7);
+  border: goldenrod;
+  background-position: fixed;
+  overflow: auto;
+  border: 1px solid goldenrod;
+  text-align: center;
+  margin-top: 65px;
+  position: relative;
+}
+
+#copyright{
+  color:rgb(134, 3, 3);
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* linkedin animation */
+.box {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+  
+.linkedin {
+  background: url("../images/LinkedIn.jpg");
+  background-size: contain;
+  max-height: 100%;
+  float: left;
+}
+  
+.box {
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+  
+.box span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: black;
+  font-style: oblique;
+}
+  
+.box span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+  
+.box:hover span {
+  padding-right: 25px;
+}
+
+.box:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+  /* github animation */
+.github {
+  background: url("../images/GitHub.jpg");
+  background-size: contain;
+  max-height: 100%;
+  float: right;
+}
+  
+.box {
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+}
+  
+.box span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: black;
+  font-style: oblique;
+}
+
+.box span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.box:hover span {
+  padding-right: 25px;
+}
+
+.box:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*======================================================================*/
+/* PROJECT PAGE */
+/*======================================================================*/
+
+#project-container{
+  background:rgb(37, 37, 37, .5);
+  color: goldenrod;
+  font-family: 'Roboto Slab', serif;
+  border: .5px solid rgba(245, 209, 9, 0.3);
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  overflow: auto;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  width: 50%;
+  float: left;
+  position:relative;
+} 
+ #project-container h3 {
+  color: rgb(163, 4, 4);
+  font-family: 'Roboto Slab', serif;
+  position: absolute;
+  top:15%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  text-shadow: 2px 2px 2px rgb(2, 0, 0);
+}  
+/*======================================================================*/
+/* CONTACT PAGE */
+/*======================================================================*/
+#contact-container {
+  width: 400px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: rgb(2, 2, 2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-shrink: inherit;
+  overflow: auto;
+  clear: both;
+  opacity: .8;
+}
+
+#contact input,
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 60px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+#contact h3{ 
+  margin: 5px 0 15px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  color: rgb(114, 2, 2);
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  color: rgb(114, 2, 2);
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 10px;
+  padding: 0;
+}
+
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+#contact input,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(114, 2, 2);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: rgb(48, 1, 1);
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+  #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+  /* end of css */
