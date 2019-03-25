@@ -3,75 +3,445 @@
 
 <head>
   <meta charset="UTF-8">
-  <!--header-->
-  <title>Ricardo Quintanar</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ricardo Quintanar | Portfolio</title>
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- CSS -->
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Linking Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <div class="container" id="index-container">
-        <h1>
-          <strong>Ricardo Quintanar Full Stack Developer</strong>
-        </h1>
-      </div>
 
-  <!-- Navigation -->
-  <ul class="bar">
-    <li><a href="./index.html" class="button bar-item">Home</a></li>
-    <li><a href="./projects.html" class="button bar-item">Projects</a></li>
-    <li><a href="./contact.html" class="button wbar-item">Contact</a></li>
+
+  <!-- TOP NAVBAR -->
+  <nav id="navbar">
+
+    <!-- Wrapper -->
+    <div class="nav-wrapper">
+
+      <!-- Mobile Menu Icon -->
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+
+      <!-- Logo -->
+      <a href="#" class="brand-logo right">NOMAD</a>
+
+      <!-- Nav Buttons -->
+      <ul class="left hide-on-med-and-down">
+
+        <li class="nav-effect">
+          <a class="nav-about main-about">About Me</a>
+        </li>
+        <li class="nav-effect">
+          <a class="nav-projects main-projects">Projects</a>
+        </li>
+        <li class="nav-effect">
+          <a class="nav-contact main-contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <!-- Mobile NAV -->
+  <ul class="sidenav grey lighten-2" id="mobile-demo">
+
+    <li class="nav-effect">
+      <a class="nav-about side-about">About Me</a>
+    </li>
+    <li class="nav-effect">
+      <a class="nav-projects side-projects">Projects</a>
+    </li>
+    <li class="nav-effect">
+      <a class="nav-contact side-contact">Contact</a>
+    </li>
+
   </ul>
 
-  <!-- Slide Show -->
-      <div class='slides_container'>
-    <img class="my-slides" src="./assets/images/kateandRic.jpg">
-    <img class="my-slides" src="./assets/images/IMG_5164.jpg">
-    <img class="my-slides" src="./assets/images/topoftheworld.jpg">
-    <img class="my-slides" src="./assets/images/walkingonwater.jpg">
-    <img class="my-slides" src="./assets/images/icca.jpg">
-    <img class="my-slides" src="./assets/images/lakeglacier.jpg">
-    <img class="my-slides" src="./assets/images/macchu-picchu.jpg">
+  <!-- Intro PAGE -->
+  <div class="intro">
+
+    <!-- Container -->
+    <div id="intro-container" class="container">
+      <div class="row" data-aos="flip-up" data-aos-delay="100" data-aos-duration="2000">
+
+        <div class="col s12 small-text">
+          <p>
+            Designer/Progammer
+          </p>
+        </div>
+
+        <div class="col s12">
+          <p class="big-text  padding wrap">
+            Programming Our Imaginations
+          </p>
+        </div>
+
       </div>
 
-  <!-- Bio Description -->
-  <div class="biography-container">
-  <h2 class="biography">Biography</h2>
-  <p> I was born in Mexico on June 21st, 1991. I moved to the United States when I was five and first settled in the
-    great city of
-    Austin Texas.
-  </p>
-  <p>I attended school at Texas State University for a bachelors in International Marketing and a minor in Political
-    Science.</p>
-  <P>I am currently employed at Trade Management Solutions as a Logistics Coordinator, as well as their new IT and App
-    developer.
-    I decided to attend the Vandebilt Coding Boot Camp to further my knowledge of web based languages.
-    I am currently working on creating a new Warehousing Management System for TMS. The application will be able to
-    execute, real time data,
-    real time tracking, and real time warehousing productivity.
-  </P>
-</div>
-  <!--linked in animation reference css-->
-  <footer>
-    <a href="https://www.linkedin.com/in/ricardoquintanar/" target="_blank">
-      <div class="box linkedin">
-        <span>Linkedin</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="imagine">
+
+    <!-- Container -->
+    <div id="about-me" class="container">
+
+      <div class="row">
+
+        <h2 class="header center-align col s12" data-aos="zoom-out-up" data-aos-delay="200" data-aos-duration="1000"
+          data-aos-once="true">
+          <span>BACKGROUND </span>
+        </h2>
       </div>
-    </a>
 
-    <a href="https://github.com/AnonymousnomadC5/" target="_blank">
-      <div class="box github">
-        <span>GitHub</span>
+      <div class="row" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="1000" data-aos-once="true">
+
+        <div class="center-align col s12 m5 l4">
+          <img id="about-pic" class="responsive-img" src="assets/images/aboutme.jpeg" height="300" width="300">
+        </div>
+
+        <h5 id="about-text" class="col s12 m7 l8">
+          RICARDO QUINTANAR
+          <br>
+          <br>  
+
+          I was born in Mexico on June 21st, 1991. I moved to the United States when I was five and first settled in the
+          great city of
+          Austin Texas.
+          <br>
+          <br>  
+          I am currently employed at Trade Management Solutions as a Logistics Coordinator, as well as their new IT and
+          App
+          developer.
+          <br>
+          <br>  
+          I decided to attend the Vandebilt Coding Boot Camp to further my knowledge of web based languages.
+          I am currently working on creating a new Warehousing Management System for TMS. The application will be able
+          to
+          execute, real time data,
+          real time tracking, and real time warehousing productivity.
+        </h5>
       </div>
-    </a>
 
-    <div id="copyright">&copy;2019 Ricardo Quintanar</div>
-  </footer>
-  <!--end of html-->
+      <div id="resume-button" class="row">
 
-<!-- J -->
-  <script src="./assets/app js/app.js"></script>
+        <div class="col s12 center-align">
+          <a id="resume-button-color" class="waves-effect waves-light btn-large" href="" target="_blank"><i
+              class="material-icons left">mood</i>Resume</a>
+        </div>
 
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="bottombg">
+
+    <!-- PROJECTS SECTION -->
+    <div class="project-section">
+      <div id="projects" class="section">
+        <div class="row container">
+          <h2 class="header center-align"><span class="projects-slashes"></span> PROJECTS <span
+              class="projects-slashes"></span></h2>
+        </div>
+
+        <div class="container">
+
+          <!-- Row -->
+          <div class="row">
+
+            <!-- FILTER SELECTORS -->
+
+            <div class="col s12 right-align button-group filters-button-group">
+              <span class="center-align button is-checked" data-filter="*">
+                ALL
+                <span class="projects-slashes">
+                  |
+                </span>
+              </span>
+              <span class="center-align button" data-filter=".front-end">
+                DESIGN
+                <span class="projects-slashes">
+                  |
+                </span>
+              </span>
+              <span class="center-align button" data-filter=".back-end">
+                PROGRAMMING
+                <span class="projects-slashes">
+                  |
+                </span>
+              </span>
+              <span class="center-align button" data-filter=".full-stack">
+                DESIGN/PROGRAMMING
+              </span>
+            </div>
+
+          </div>
+
+          <!-- ISOTOPE GRID -->
+          <!-- NOMAD TRAVELER -->
+          <div class="row">
+
+            <div class="grid">
+
+              <div class="col s12 m6 l4 element-item full-stack" data-category="full-stack">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/nomad.jpg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal">
+                    <span class="card-title">NOMAD TRAVELER<i class="material-icons right">close</i></span>
+                    <p class="project-info">Authentication, APIs, Programming</p>
+                    <br>
+                    <a class="project-link center-align col s6" href="" target="_blank">GitHub</a>
+                    <a class="project-link center-align col s6" href="" target="_blank">Deployed</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HANGMAN -->
+              <div class="col s12 m6 l4 element-item full-stack" data-category="full-stack">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/background.jpg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal">
+                    <span class="card-title">HANGMAN<i class="material-icons right">close</i></span>
+                    <p class="project-info">JQuery, HTML, CSS</p>
+                    <br>
+                    <a class="project-link center-align col s6" href="" target="_blank">GitHub</a>
+                    <a class="project-link center-align col s6" href="" target="_blank">Deployed</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- UNDER COSNTRUCTION -->
+              <div class="col s12 m6 l4 element-item front-end" data-category="front-end">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/underconstruction2.jpg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal">
+                    <span class="card-title">UNDER CONSTRUCTION<i class="material-icons right">close</i></span>
+                    <p class="project-info">UNDER CONSTRUCTION</p>
+                    <br>
+                    <a class="project-link center-align col s6" href="" target="_blank">GitHub</a>
+                    <a class="project-link center-align col s6" href="" target="_blank">Deployed</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- UNDER CONSTRUCTION -->
+              <!-- Col -->
+              <div class="col s12 m6 l4 element-item front-end" data-category="front-end">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/underconstruction3.jpeg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal">
+                    <span class="card-title">UNDER CONSTRUCTION<i class="material-icons right">close</i></span>
+                    <p class="project-info">UNDER CONSTRUCTION</p>
+                    <br>
+                    <a class="project-link center-align col s6" href="" target="_blank">GitHub</a>
+                    <a class="project-link center-align col s6" href="" target="_blank">Deployed</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- UNDER CONSTRUCTION -->
+              <div class="col s12 m6 l4 element-item full-stack" data-category="full-stack">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/underconstruction4.jpg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal">
+                    <span class="card-title">UNDER CONSTRUCTION<i class="material-icons right">close</i></span>
+                    <p class="project-info">UNDER CONSTRUCTION</p>
+                    <br>
+                    <a class="project-link center-align col s6" href="" target="_blank">GitHub</a>
+                    <a class="project-link center-align col s6" href="" target="_blank">Deployed</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- UNDER CONSTRUCTION -->
+              <div class="col s12 m6 l4 element-item back-end" data-category="back-end">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator project-img" src="assets/images/uncerconstruction5.jpeg" height="200px" width="200px">
+                  </div>
+
+                  <!-- Reveal -->
+                  <div class="card-reveal row">
+                    <span class="card-title">UNDER CONSTRUCTION<i class="material-icons right">close</i></span>
+                    <p class="project-info">UNDER CONSTRUCTION</p>
+                    <br>
+                    <a class="project-link center-align col s12" href="" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer footer">
+      <div class="container">
+
+
+        <div id="contact" class="row">
+
+          <div class="center-align col s12">
+            <h2>Contact</h2>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- GitHub -->
+          <div class="col s6 m3">
+            <div class="row">
+
+              <!-- Icon -->
+              <div class="col s12">
+                <a href="https://github.com/RicardoQuintanar" target="_blank">
+                  <i class="fab fa-github fa-5x"></i>
+                </a>
+              </div>
+
+              <div class="col s12">
+                <a href="https://github.com/RicardoQuintanar" target="_blank">
+                  GitHub
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Linkedin -->
+          <div class="col s6 m3">
+            <div class="row">
+
+              <!-- Icon -->
+
+              <div class="col s12">
+                <a href="https://www.linkedin.com/in/ricardoquintanar/" target="_blank">
+                  <i class="fab fa-linkedin fa-5x"></i>
+                </a>
+              </div>
+
+              <div class="col s12">
+                <a href="https://www.linkedin.com/in/ricardoquintanar/" target="_blank">
+                  Linkedin
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col s6 m3">
+            <div class="row">
+
+              <!-- Icon -->
+              <div class="col s12">
+                <a href="mailto:ricardoq@tms-lp.com" target="_blank">
+                  <i class="far fa-envelope fa-5x"></i>
+                </a>
+              </div>
+
+              <div class="col s12">
+                <a href="mailto:ricardoq@tms-lp.com" target="_blank">
+                  Email
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Resume -->
+          <div class="col s6 m3">
+            <div class="row">
+
+              <!-- Icon -->
+              <div class="col s12">
+                <a href="" target="_blank">
+                  <i class="far fa-file fa-5x"></i>
+                </a>
+              </div>
+
+              <div class="col s12">
+                <a href="" target="_blank">
+                  Resume
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="row copyright">
+          <div class="col s12 copyright-center">
+            <h6>© Ricardo Quintanar VANDERBILT BCS</h6>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+
+  <!-- SCRIPTS -->
+  <!-- Isotope.js -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- Modernizr -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  <!-- JS -->
+  <script src="assets/jquery/app.js"></script>
 </body>
 
 </html>
