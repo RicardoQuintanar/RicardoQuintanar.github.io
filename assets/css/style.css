@@ -198,9 +198,7 @@ nav div a {
 }
 
 .card {
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(175, 0, 0);
+    box-shadow: purple;
     overflow: hidden;
 }
 
