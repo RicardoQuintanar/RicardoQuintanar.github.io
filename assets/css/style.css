@@ -57,7 +57,7 @@ nav {
 /* Text Color */
 nav div ul li a,
 nav div a {
-    color: black !important;
+    color: rgb(243, 160, 6) !important;
 }
 
 /* Hover Color */
